@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Ururu</string>
+    <string name="button_name">Text Font on the Button</string>
+    <string name="hint_in_textview">Any text</string>
 </resources>
