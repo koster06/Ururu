@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Ururu</string>
-    <string name="button_name">Text Style on the Button</string>
     <string name="tv_name">The quick brown fox jumps over the lazy dog</string>
+    <string name="button_name">Text Style on the Button</string>
 </resources>
