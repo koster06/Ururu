@@ -4,7 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="8dp"
     tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/hint_in_textview2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:padding="4dp"
+        style="@style/tvFont" />
 
     <EditText
         android:id="@+id/editText"
@@ -21,10 +34,9 @@
 
     <Button
         android:id="@+id/buttonOk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/tvFont"
         android:layout_marginTop="64dp"
-        android:text="Ok"
+        android:text="@string/button_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
@@ -40,6 +52,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:hint="@string/hint_in_textview"
+        android:text=""
+        android:fontFamily="@font/bellota_text"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOk" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
